@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/first_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_statistics"
+            android:title="统计"
+            android:icon="@drawable/statistics"/>
+        <item
+            android:id="@+id/nav_pic"
+            android:title="图库"
+            android:icon="@drawable/thepic"/>
+        <item
+            android:id="@+id/nav_theme"
+            android:title="主题"
+            android:icon="@drawable/theme"/>
+    </group>
+    <group
+        android:id="@+id/second_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:title="分享"
+            android:icon="@drawable/shape"/>
+        <item
+            android:id="@+id/nav_option"
+            android:title="设置"
+            android:icon="@drawable/option1"/>
+        <item
+            android:id="@+id/nav_Feedback"
+            android:title="反馈"
+            android:icon="@drawable/feedback"/>
+    </group>
+</menu>

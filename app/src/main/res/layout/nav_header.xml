@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_nav_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+        <com.example.administrator.mydiaryapplication.utils.CircleImageView
+            android:id="@+id/iv_civ_head"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="60dp"
+            android:padding="8dp"
+            />
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_civ_head"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="华雄"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</FrameLayout>
